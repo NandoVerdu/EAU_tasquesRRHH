@@ -1,4 +1,4 @@
-<!doctype html>
+<!doctype html> 
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
@@ -8,16 +8,60 @@
 
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="dist/theme/dracula.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
 	</head>
 	<body>
+		<style>
+			 ol  {
+				counter-reset: lista;
+				list-style: none;
+				
+				}
+			  
+			 ol li:before {
+				content: "Número " counter(lista) " ";
+				counter-increment: lista 1;
+				
+				}
+		</style>
+		
+
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-markdown>
+					# departament de recursos humans
+				</section>
+				<section>
+					<h3 style="color: #8BE9FD;">Punts a desenvolupar</h3>
+					<ol >
+						<li >Introducció. Principals funcions del departament de RRHH</li>
+						<li>Legislació laboral</li>
+						<li>Selecció de personal. Definició de llocs de treball. Processos de captació i Selecció</li>
+						<li>Procés de contractació d'un nou treballador</li>
+						<li>Tipus de contractes. Indefinits, temporals i fixe discontinu</li>
+
+					</ol>
+			
+				
+				</section>
+
+			
+
+				<section >
+					<ol class="dat">
+						<li >Afiliació, altes, baixes i variació de dades dels treballadors</li>
+						<li >El salari. El rebut de salaris. Components salarials i no salarials.Rebut de salaris</li>
+						<li>Cotització. Contingències comunes, contingències professionals, hores extraordinàries</li>
+						<li>Bulletins de cotització TC1 i TC2</li>
+						<li>Confecció de nòmines</li>
+					</ol>
+					
+				</section>
+				
+				
 			</div>
 		</div>
 

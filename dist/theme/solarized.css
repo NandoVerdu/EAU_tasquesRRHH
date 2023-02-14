@@ -359,3 +359,16 @@ html * {
     background-color: var(--r-background-color);
   }
 }
+.reveal ol.dat {
+  counter-reset: item 5;
+}
+
+.reveal ol.dat li {
+  display: block;
+}
+
+.reveal ol.dat li::before {
+  display: inline-block;
+  content: counter(item) ". ";
+  counter-increment: item;
+}
